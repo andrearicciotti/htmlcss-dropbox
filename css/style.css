@@ -56,3 +56,85 @@ header {
     height: 56%;
     background-color: rgb(115, 115, 212);
 }
+
+/* MAIN */
+/* SECTION-1 */
+.section-1 {
+    width: 100%;
+    /* debug */
+    margin-top: 60px;
+    height: 1080px;
+    background-color: antiquewhite;
+}
+
+.section-2 {
+    width: 100%;
+    /* debug */
+    margin-top: 60px;
+    height: 330px;
+    background-color: rgb(215, 151, 67);
+}
+
+.section-3 {
+    width: 100%;
+    /* debug */
+    margin-top: 60px;
+    height: 900px;
+    background-color: rgb(123, 205, 91);
+}
+
+.section-4 {
+    width: 100%;
+    /* debug */
+    margin-top: 60px;
+    height: 120px;
+    background-color: rgb(98, 89, 165);
+}
+
+.section-5 {
+    width: 100%;
+    /* debug */
+    margin: 60px 0;
+    height: 380px;
+    background-color: rgb(235, 125, 129);
+}
+
+.section-6 {
+    width: 100%;
+    /* debug */
+    height: 220px;
+    background-color: rgb(121, 216, 116);
+}
+
+.section-7 {
+    width: 100%;
+    /* debug */
+    margin: 60px 0;
+    height: 260px;
+    background-color: rgb(112, 172, 185);
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    width: 100%;
+    /* debug */
+    height: 330px;   
+}
+
+.footer-top {
+    width: 100%;
+    /* debug */
+    height: 260px;
+    background-color: rgb(134, 212, 138);
+    border-color: white;
+}
+
+.footer-bottom {
+    width: 100%;
+    /* debug */
+    height: 65px;
+    background-color: rgb(212, 134, 199);
+    margin-top: 10px;
+    border-color: white;
+}
