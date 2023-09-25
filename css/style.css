@@ -3,9 +3,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* debug */
+    border: 1px solid black;
 }
 
 /* COMMON */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.container-big {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    height: 60px;
+    background-color: aquamarine;
+}
+
+/* HERO */
+.hero {
+    /* debug */
+    height: 540px;
+}
+
+.title {
+    width: 100%;
+    /* debug */
+    height: 44%;
+    background-color: rgb(202, 132, 132);
+}
+
+.text {
+    width: 34%;
+    /* debug */
+    display: inline-block;
+    height: 56%;
+    background-color: rgb(102, 205, 102);
+}
+
+.image {
+    width: 65.5%;
+    /* debug */
+    display: inline-block;
+    height: 56%;
+    background-color: rgb(115, 115, 212);
 }
