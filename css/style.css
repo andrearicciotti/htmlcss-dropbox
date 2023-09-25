@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 img {
@@ -14,6 +14,7 @@ img {
 /* UTILITIES */
 :root {
     --btn-blue: #0061FF;
+    --bghero-lightblue: #B4D0E7;
 }
 
 /* COMMON */
@@ -32,13 +33,20 @@ li {
 }
 
 .container-big {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .container-small {
     width: 60%;
     margin: 0 auto;
+}
+
+
+.btn-blue {
+    background-color: var(--btn-blue);
+    color: white;
+    padding: .3rem .7rem;
 }
 
 .flex-container {
@@ -65,7 +73,7 @@ li {
 header {
     height: 60px;
     font-size: .7rem;
-    font-weight: 1000;
+    font-weight: 600;
     padding: 0 1rem;
     /* debug */
     /* background-color: aquamarine; */
@@ -101,40 +109,56 @@ ul,.flex-container {
     gap: 1rem;
 }
 
-.start {
-    background-color: var(--btn-blue);
-    color: white;
-    padding: .2rem .6rem;
-}
-
 /* HERO */
 .hero {
+    background-color: var(--bghero-lightblue);
     /* debug */
-    height: 500px;
-    margin-top: 80px;
+    /* height: 500px; */
 }
 
 .title-big {
     width: 100%;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding-top: 3rem;
     /* debug */
-    height: 44%;
-    background-color: rgb(202, 132, 132);
+    /* height: 44%; */
+    /* background-color: rgb(202, 132, 132); */
 }
 
 .text {
-    width: 34%;
-    /* debug */
+    width: 32%;
+    font-size: .7rem;
     display: inline-block;
-    height: 56%;
-    background-color: rgb(102, 205, 102);
+    /* debug */
+    /* height: 56%; */
+    /* background-color: rgb(102, 205, 102); */
+}
+
+.text p {
+    margin-bottom: 2rem;
+}
+
+.text a {
+    padding: .5rem .7rem;
+}
+ 
+.text span {
+    display: block;
+    margin-top: 2.2rem;
+}
+
+.text i {
+    font-size: 2rem;
+    margin-top: 1.2rem;
 }
 
 .image {
-    width: 65.5%;
+    width: 64%;
+    display: block;
     /* debug */
-    display: inline-block;
-    height: 56%;
-    background-color: rgb(115, 115, 212);
+    /* height: 56%;
+    background-color: rgb(115, 115, 212); */
 }
 
 /* MAIN */
