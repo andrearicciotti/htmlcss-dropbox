@@ -53,6 +53,10 @@ li {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .wrapper {
     flex-wrap: wrap;
 }
@@ -189,7 +193,7 @@ ul,.flex-container {
     background-color: rgb(156, 208, 173);
 } 
 
-
+/* SECTION-3 */
 .section-3 {
     width: 100%;
     /* debug */
@@ -198,6 +202,21 @@ ul,.flex-container {
     background-color: rgb(123, 205, 91);
 }
 
+.section3-title {
+    width: 100%;
+    /* debug */
+    height: 70px;
+    background-color: bisque;
+}
+
+.section-3 .card {
+    width: 31%;
+    /* debug */
+    height: 44%;
+    background-color: rgb(132, 115, 148);
+}
+
+/* SECTION-4 */
 .section-4 {
     width: 100%;
     /* debug */
@@ -206,12 +225,20 @@ ul,.flex-container {
     background-color: rgb(98, 89, 165);
 }
 
+/* SECTION-5 */
 .section-5 {
     width: 100%;
     /* debug */
     margin: 60px 0;
     height: 380px;
     background-color: rgb(235, 125, 129);
+}
+
+.section-5 .col {
+    width: 33%;
+    /* debug */
+    height: 100%;
+    background-color: rgb(175, 175, 231);
 }
 
 .section-6 {
