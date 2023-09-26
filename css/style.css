@@ -36,17 +36,31 @@ li {
 .container-big {
     width: 70%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 840px;
 }
 
 .container-small {
     width: 60%;
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 740px;
 }
 
+.col-60 {
+    width: 60%;
+    /* debug */
+    /* height: 100%; */
+    /* background-color: rgb(149, 216, 216); */
+} 
+
+.col-40 {
+    width: 38%;
+    /* debug */
+    /* height: 100%; */
+    /* background-color: rgb(156, 208, 173); */
+} 
+
 .col-container {
-    padding: 1.5rem;
+    padding: 1.25rem;
     width: 100%;
 }
 
@@ -56,7 +70,8 @@ li {
 }
 
 .col-container h3 {
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
     font-size: 1.2rem;
 }
 
@@ -67,8 +82,8 @@ li {
 .btn-blue {
     background-color: var(--btn-blue);
     color: white;
-    padding: .3rem .7rem;
-    font-size: .7rem;
+    padding: .3rem .6rem;
+    font-size: .8rem;
 }
 
 .fa-check {
@@ -208,9 +223,9 @@ ul,.flex-container {
 
 .image img {
     position: absolute;
-    bottom: -1.5rem;
+    top: 1.8rem;
     right: -1rem;
-    scale: 1.15;
+    scale: 1.2;
 }
 
 /* MAIN */
@@ -241,12 +256,16 @@ ul,.flex-container {
     margin-bottom: 2rem;
 }
 
-.section-1 .row-title input {
-    margin: 0 .2rem;
+.section-1 .row-title span {
+    margin: 0 1.2rem 0 .4rem;
 }
 
 .section-1 .row {
-    height: 20%;
+    width: 100%;
+    font-size: .7rem;
+    border: 1px solid rgb(156, 156, 156);
+    /* debug */
+    /* height: 20%; */
 }
 
 .section-1 .col {
@@ -255,11 +274,11 @@ ul,.flex-container {
     font-size: .7rem;
     border: 1px solid rgb(156, 156, 156);
     /* debug */
-    height: 70%;
+    /* height: 70%; */
     /* background-color: rgb(170, 198, 128); */
 }
 
-.section-1 .col .col-title {
+.section-1 .col .col-title, .section-1 .row .col-title {
     width: 100%;
     border-bottom: 1px solid rgb(156, 156, 156);
     padding: .5rem 1.5rem;
@@ -282,8 +301,10 @@ ul,.flex-container {
 }
 
 .col-container .btn-blue {
-    padding: .6rem .8rem;
-    margin: 2rem 0 1rem .2rem;
+    padding: .6rem .6rem;
+    margin: 2rem 0 1rem 0;
+    width: 100%;
+    text-align: center;
 }
 
 .col-container hr {
@@ -296,28 +317,19 @@ ul,.flex-container {
     margin-bottom: 1.2rem;
 }
 
+.row .col-container .btn-blue {
+    margin: 1.5rem 0 1rem 0;
+}
+
 /* SECTION-2 */
 .section-2 {
     width: 100%;
     /* debug */
-    margin-top: 60px;
+    margin-top: 160px;
     height: 330px;
     background-color: rgb(215, 151, 67);
 }
 
-.section-2 .col-1 {
-    width: 60%;
-    /* debug */
-    height: 100%;
-    background-color: rgb(149, 216, 216);
-} 
-
-.section-2 .col-2 {
-    width: 38%;
-    /* debug */
-    height: 100%;
-    background-color: rgb(156, 208, 173);
-} 
 
 /* SECTION-3 */
 .section-3 {
@@ -374,20 +386,6 @@ ul,.flex-container {
     height: 220px;
     background-color: rgb(121, 216, 116);
 }
-
-.section-6 .col-1 {
-    width: 60%;
-    /* debug */
-    height: 100%;
-    background-color: rgb(149, 216, 216);
-} 
-
-.section-6 .col-2 {
-    width: 38%;
-    /* debug */
-    height: 100%;
-    background-color: rgb(156, 208, 173);
-} 
 
 /* SECTION-7 */
 .section-7 {
