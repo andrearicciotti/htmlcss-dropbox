@@ -111,6 +111,10 @@ li {
     display: flex;
 }
 
+.column-direction {
+    flex-direction: column;
+}
+
 .align-center {
     align-items: center;
 }
@@ -356,23 +360,24 @@ ul,.flex-container {
 .section-3 {
     width: 100%;
     /* debug */
-    margin-top: 60px;
-    height: 900px;
-    background-color: rgb(123, 205, 91);
+    margin-top: 5rem;
+    /* height: 900px;
+    background-color: rgb(123, 205, 91); */
 }
 
 .section3-title {
     width: 100%;
+    margin: 1.5rem 0 1.5rem;
     /* debug */
-    height: 70px;
-    background-color: bisque;
+    /* height: 70px;
+    background-color: bisque; */
 }
 
 .section-3 .card {
     width: 31%;
     /* debug */
-    height: 44%;
-    background-color: rgb(132, 115, 148);
+    /* height: 44%;
+    background-color: rgb(132, 115, 148); */
 }
 
 /* SECTION-4 */
