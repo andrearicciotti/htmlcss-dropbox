@@ -23,6 +23,7 @@ body {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: inherit;
     font-family: inherit;
@@ -35,18 +36,54 @@ li {
 .container-big {
     width: 70%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .container-small {
     width: 60%;
     margin: 0 auto;
+    max-width: 1080px;
 }
 
+.col-container {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.col-container span {
+    display: inline-block;
+    margin: .6rem 0;
+}
+
+.col-container h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.col-container i {
+    margin-right: .3rem;
+}
 
 .btn-blue {
     background-color: var(--btn-blue);
     color: white;
     padding: .3rem .7rem;
+    font-size: .7rem;
+}
+
+.fa-check {
+    color: blue;
+}
+
+.buy-now {
+    text-decoration: underline;
+    color: blue;
+}
+
+#month {
+    display: block;
+    color: grey;
+    margin-bottom: 2.5rem;
 }
 
 .flex-container {
@@ -105,9 +142,14 @@ header ul {
     text-align: right;
 }
 
+.actions-2 .btn-blue {
+    display: inline;
+}
+
 ul,.flex-container {
     gap: 1rem;
 }
+
 
 /* HERO */
 .hero {
@@ -121,6 +163,8 @@ ul,.flex-container {
     font-size: 1.7rem;
     font-weight: 800;
     padding-top: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 1.5rem;
     /* debug */
     /* height: 44%; */
     /* background-color: rgb(202, 132, 132); */
@@ -150,15 +194,23 @@ ul,.flex-container {
 
 .text i {
     font-size: 2rem;
-    margin-top: 1.2rem;
+    margin: 1rem 0;
 }
 
 .image {
     width: 64%;
     display: block;
+    position: relative;
     /* debug */
     /* height: 56%;
     background-color: rgb(115, 115, 212); */
+}
+
+.image img {
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1rem;
+    scale: 1.15;
 }
 
 /* MAIN */
@@ -169,17 +221,28 @@ ul,.flex-container {
     /* debug */
     margin-top: 60px;
     height: 1080px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .section-1 .row-title, .row {
     width: 100%;
     /* debug */
-    background-color: rgb(94, 94, 162);
+    /* background-color: rgb(94, 94, 162); */
 }
 
 .section-1 .row-title {
-    height: 10%;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    /* debug */
+    /* height: 10%; */
+}
+
+.section-1 .row-title h2 {
+    margin-bottom: 2rem;
+}
+
+.section-1 .row-title input {
+    margin: 0 .2rem;
 }
 
 .section-1 .row {
@@ -189,9 +252,48 @@ ul,.flex-container {
 .section-1 .col {
     width: 31%;
     flex-grow: 1;
+    font-size: .7rem;
+    border: 1px solid rgb(156, 156, 156);
     /* debug */
     height: 70%;
-    background-color: rgb(170, 198, 128);
+    /* background-color: rgb(170, 198, 128); */
+}
+
+.section-1 .col .col-title {
+    width: 100%;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    padding: .5rem 1.5rem;
+    text-align: center;   
+}
+
+.section-1 .col .col-title i {
+    padding: 0 .4rem;
+}
+
+.col-text {
+    width: 80%;
+    display: inline-block;
+}
+
+.icons {
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-container .btn-blue {
+    padding: .6rem .8rem;
+    margin: 2rem 0 1rem .2rem;
+}
+
+.col-container hr {
+    color: grey;
+    width: 25%;
+    margin: 2rem 0;
+}
+
+.col-container h4 {
+    margin-bottom: 1.2rem;
 }
 
 /* SECTION-2 */
