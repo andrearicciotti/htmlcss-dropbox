@@ -86,6 +86,12 @@ li {
     font-size: .8rem;
 }
 
+.btn-white {
+    border: 1px solid black;
+    padding: .3rem .6rem;
+    font-size: .8rem;
+}
+
 .fa-check {
     color: blue;
 }
@@ -321,15 +327,30 @@ ul,.flex-container {
     margin: 1.5rem 0 1rem 0;
 }
 
+.row {
+    margin: 1.5rem 0 3rem 0;
+}
+
 /* SECTION-2 */
 .section-2 {
     width: 100%;
+    margin-top: 17rem;
     /* debug */
-    margin-top: 160px;
-    height: 330px;
-    background-color: rgb(215, 151, 67);
+    /* margin-top: 160px; */
+    /* height: 330px; */
+    /* background-color: rgb(215, 151, 67); */
+    /* border: 1px solid black; */
 }
 
+.section-2 .col-container {
+    text-align: left;
+}
+
+.caption {
+    font-size: .7rem;
+    margin: 1rem 0;
+    text-align: left;
+}
 
 /* SECTION-3 */
 .section-3 {
