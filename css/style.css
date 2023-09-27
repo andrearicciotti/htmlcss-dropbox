@@ -11,29 +11,13 @@ img {
     max-width: 100%;
 }
 
+
 /* UTILITIES */
 :root {
     --btn-blue: #0061FF;
     --bghero-lightblue: #B4D0E7;
     --sect6title-col: #61082B;
 }
-
-/* COMMON */
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
-    font-family: inherit;
-}
-
-li {
-    list-style-type: none;
-}
-
 
 .container-big {
     width: 70%;
@@ -56,29 +40,11 @@ li {
 
 .col-40 {
     width: 38%;
-    /* debug */
-    /* height: 100%; */
-    /* background-color: rgb(156, 208, 173); */
 } 
 
 .col-container {
     padding: 1.25rem;
     width: 100%;
-}
-
-.col-container span {
-    display: inline-block;
-    margin: .6rem 0;
-}
-
-.col-container h3 {
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    font-size: 1.2rem;
-}
-
-.col-container i {
-    margin-right: .3rem;
 }
 
 .btn-blue {
@@ -145,6 +111,39 @@ li {
     flex-wrap: wrap;
 }
 
+
+/* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.col-container span {
+    display: inline-block;
+    margin: .6rem 0;
+}
+
+.col-container h3 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.col-container i {
+    margin-right: .3rem;
+}
+
+
 /* HEADER */
 header {
     height: 60px;
@@ -157,8 +156,6 @@ header {
     width: 100%;
     z-index: 9999;
     background-color: white;
-    /* debug */
-    /* background-color: aquamarine; */
 }
 
 header ul {
@@ -203,12 +200,11 @@ header li:hover {
     transition: all 5s linear;
 }
 
+
 /* HERO */
 .hero {
     background-color: var(--bghero-lightblue);
     margin-top: 60px;
-    /* debug */
-    /* height: 500px; */
 }
 
 .title-big {
@@ -218,18 +214,12 @@ header li:hover {
     padding-top: 3rem;
     line-height: 4.5rem;
     margin-bottom: 1.5rem;
-    /* debug */
-    /* height: 44%; */
-    /* background-color: rgb(202, 132, 132); */
 }
 
 .text {
     width: 32%;
     font-size: .7rem;
     display: inline-block;
-    /* debug */
-    /* height: 56%; */
-    /* background-color: rgb(102, 205, 102); */
 }
 
 .text p {
@@ -254,9 +244,6 @@ header li:hover {
     width: 64%;
     display: block;
     position: relative;
-    /* debug */
-    /* height: 56%;
-    background-color: rgb(115, 115, 212); */
 }
 
 .image img {
@@ -272,23 +259,16 @@ header li:hover {
 .section-1 {
     width: 100%;
     align-content: space-between;
-    /* debug */
-    margin-top: 60px;
-    height: 1080px;
-    /* background-color: antiquewhite; */
+    margin-top: 4rem;
 }
 
 .section-1 .row-title, .row {
     width: 100%;
-    /* debug */
-    /* background-color: rgb(94, 94, 162); */
 }
 
 .section-1 .row-title {
     font-size: 1.2rem;
     margin: 2rem 0;
-    /* debug */
-    /* height: 10%; */
 }
 
 .section-1 .row-title h2 {
@@ -303,8 +283,6 @@ header li:hover {
     width: 100%;
     font-size: .7rem;
     border: 1px solid rgb(156, 156, 156);
-    /* debug */
-    /* height: 20%; */
 }
 
 .section-1 .col {
@@ -312,9 +290,6 @@ header li:hover {
     flex-grow: 1;
     font-size: .7rem;
     border: 1px solid rgb(156, 156, 156);
-    /* debug */
-    /* height: 70%; */
-    /* background-color: rgb(170, 198, 128); */
 }
 
 .section-1 .col .col-title, .section-1 .row .col-title {
@@ -368,15 +343,10 @@ header li:hover {
     margin-right: .3rem;
 }
 
-/* SECTION-2 */
+/* SECTION-2 FIND A PARTNER */
 .section-2 {
     width: 100%;
-    margin-top: 17rem;
-    /* debug */
-    /* margin-top: 160px; */
-    /* height: 330px; */
-    /* background-color: rgb(215, 151, 67); */
-    /* border: 1px solid black; */
+    margin-top: 5rem;
 }
 
 .section-2 .col-container {
@@ -393,37 +363,25 @@ header li:hover {
     border: 1px solid black;
 }
 
-/* SECTION-3 */
+/* SECTION-3 DROPBOX BUSINESS */
 .section-3 {
     width: 100%;
     margin-top: 5rem;
-    /* debug */
-    /* height: 900px;
-    background-color: rgb(123, 205, 91); */
 }
 
 .section3-title {
     width: 100%;
     margin: 1.5rem 0 1.5rem;
-    /* debug */
-    /* height: 70px;
-    background-color: bisque; */
 }
 
 .section-3 .card {
     width: 31%;
-    /* debug */
-    /* height: 44%;
-    background-color: rgb(132, 115, 148); */
 }
 
-/* SECTION-4 */
+/* SECTION-4 MORE ABOUT CLIENTS*/
 .section-4 {
     width: 100%;
     margin-top: 5rem;
-    /* debug */
-    /* height: 120px;
-    background-color: rgb(98, 89, 165); */
 }
 
 .section-4 a {
@@ -431,7 +389,7 @@ header li:hover {
     font-size: .7rem;
 }
 
-/* SECTION-5 */
+/* SECTION-5 PARTNER COMPANIES */
 .section-5 {
     width: 100%;
     gap: 0;
@@ -448,6 +406,8 @@ header li:hover {
     background-color: rgb(175, 175, 231); */
 }
 
+
+/* LOGOS LAYOUTS */
 .logos {
     width: 50%;
     aspect-ratio: 1/1;
@@ -527,15 +487,11 @@ header li:hover {
 }
 
 
-
-/* SECTION-6 */
+/* SECTION-6 DROPBOX FREE TRIAL */
 .section-6 {
     width: 100%;
     background-color: var(--bghero-lightblue);
     padding: 4.5rem 0;
-    /* debug */
-    /* height: 220px; */
-    /* background-color: rgb(121, 216, 116); */
 }
 
 .section-6 h2 {
@@ -549,13 +505,10 @@ header li:hover {
     margin-left: 4rem;
 }
 
-/* SECTION-7 */
+/* SECTION-7 FEATURES */
 .section-7 {
     width: 100%;
     margin: 60px 0;
-    /* debug */
-    /* height: 260px; */
-    /* background-color: rgb(112, 172, 185); */
 }
 
 .features li {
@@ -588,7 +541,9 @@ header li:hover {
     background-color: inherit;
     cursor: pointer
 }
- 
+
+
+/* HIDDEN FEATURES */
 .features-1:active button {
     rotate: 180deg;
 }
@@ -629,30 +584,45 @@ header li:hover {
 /* FOOTER */
 footer {
     background-color: black;
+    color: white;
     width: 100%;
-    /* debug */
-    height: 335px;   
+    font-size: .6rem;
+    padding-top: 2rem;  
 }
 
 .footer-top {
     width: 100%;
-    /* debug */
-    height: 260px;
-    background-color: rgb(134, 212, 138);
-    border-color: white;
+    margin: 2rem 0;
 }
 
 .footer-top .col {
     width: 19%;
-    /* debug */
-    background-color: rgb(202, 241, 228);
+}
+
+.footer-top h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-top li {
+    margin: .4rem 0;
 }
 
 .footer-bottom {
     width: 100%;
-    /* debug */
-    height: 65px;
-    background-color: rgb(212, 134, 199);
-    margin-top: 10px;
-    border-color: white;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footer-bottom hr {
+    width: 10%;
+    color: lightgray;
+}
+
+.language {
+    margin-top: 1.7rem;
+    font-size: .7rem;
+}
+
+.language span {
+    padding: 0 .2rem;
 }
