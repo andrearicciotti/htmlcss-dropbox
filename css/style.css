@@ -414,7 +414,7 @@ ul {
     aspect-ratio: 1/1;
     position: relative;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .logos img {
@@ -422,10 +422,44 @@ ul {
     scale: 0.5;
     top: 50%;
     transform: translateY(-100%);
+    filter: invert();
+}
+
+.logo-1 {
+    background-color: #A2D39B;
+}
+
+.logo-2 {
+    background-color: #61082B;
+}
+
+.logo-3 {
+    background-color: #0093CE;
+}
+
+.logo-4 {
+    background-color: #FF1C1C;
+}
+
+.logo-5 {
+    background-color: #D5001F;
+}
+
+.logo-6 {
+    background-color: #B4D0E7;
+}
+
+.logo-7 {
+    background-color: #0D2481;
+}
+
+.logo-8 {
+    background-color: #FFD830;
 }
 
 .section-5 .designit-square {
     position: relative;
+    background-color: #F5F5F5;
 }
 
 .designit {
@@ -433,6 +467,17 @@ ul {
     position: absolute;
     left: -20%;
     top: 5%;
+}
+
+.designit-square hr {
+    color: grey;
+    width: 20%;
+    margin: 8rem 0 2rem 0;
+}
+
+.designit-square p, span {
+    font-size: .7rem;
+    margin-bottom: 1.5rem;
 }
 
 .section-5 .col {
