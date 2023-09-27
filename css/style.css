@@ -191,15 +191,30 @@ header ul {
 }
 
 header li {
-    height: 60px;
-    
+    height: 60px;  
 }
 
 header li:hover {
-    border-bottom: 2px solid lightgrey;
-    transition: all 5s linear;
+    border-bottom: 1px solid lightblue;
+    animation-name: border;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
+@keyframes border {
+    25% {
+        border-bottom: 2.5px solid lightblue;
+    }
+
+    50% {
+        border-bottom: 5px solid lightskyblue;
+    }
+
+    75% {
+        border-bottom: 2.5px solid lightblue;
+    }
+}
 
 /* HERO */
 .hero {
@@ -275,8 +290,15 @@ header li:hover {
     margin-bottom: 2rem;
 }
 
-.section-1 .row-title span {
+.section-1 .row-title label {
     margin: 0 1.2rem 0 .4rem;
+    font-size: .8rem;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    cursor: pointer;
 }
 
 .section-1 .row {
@@ -394,16 +416,10 @@ header li:hover {
     width: 100%;
     gap: 0;
     margin: 5rem 0 0 0;
-    /* debug */
-    /* height: 380px;
-    background-color: rgb(235, 125, 129); */
 }
 
 .section-5 .col {
     width: calc(100% / 3);
-    /* debug */
-    /* height: 100%;
-    background-color: rgb(175, 175, 231); */
 }
 
 
@@ -412,8 +428,6 @@ header li:hover {
     width: 50%;
     aspect-ratio: 1/1;
     position: relative;
-    /* debug */
-    /* border: 1px solid black; */
 }
 
 .logos img {
@@ -457,35 +471,34 @@ header li:hover {
     background-color: #FFD830;
 }
 
-.presentation {
+
+/* COMPANIES PRESENTATION */
+.col-presentation {
     background-color: #F5F5F5;
 }
 
-/* .presentation {
-    position: relative;
-    height: 100%;
-    width: 100%;
-} */
-
-/* .presentation-img {
-    scale: 0.5;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
-
-
-.presentation hr {
+.col-presentation hr {
     color: grey;
     width: 20%;
-    margin: 8rem 0 2rem 0;
+    margin-bottom: 2rem;
 }
 
-.presentation p, span {
+.col-presentation p, span {
     font-size: .7rem;
     margin-bottom: 1.5rem;
 }
 
+.presentation-image img {
+    position: relative;
+    scale: 0.5;
+    left: -20%;
+}
+
+.presentation-text {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    max-height: 16rem;
+    overflow-y: auto;
+}
 
 /* SECTION-6 DROPBOX FREE TRIAL */
 .section-6 {
@@ -504,6 +517,7 @@ header li:hover {
     vertical-align: middle;
     margin-left: 4rem;
 }
+
 
 /* SECTION-7 FEATURES */
 .section-7 {
@@ -600,11 +614,11 @@ footer {
 }
 
 .footer-top h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .footer-top li {
-    margin: .4rem 0;
+    margin: .9rem 0;
 }
 
 .footer-bottom {

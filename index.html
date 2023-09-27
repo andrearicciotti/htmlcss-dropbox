@@ -83,7 +83,7 @@
 
                 <span>Annulla in qualsiasi momento</span>
 
-                <span><a href=""><i class="fa-sharp fa-solid fa-arrow-down"></i></a></span>
+                <span><a href="#start"><i class="fa-sharp fa-solid fa-arrow-down"></i></a></span>
 
             </div>
             <!-- /text -->
@@ -100,8 +100,9 @@
     <!-- /hero -->
 
     <!-- main -->
-    <main>
+    <main id="start">
 
+        <!-- section 1~4 -->
         <div class="container-small">
 
             <!-- business plans -->
@@ -111,9 +112,11 @@
 
                     <h2>Trova il piano business che fa per te</h2>
 
-                    <input type="radio" name="fatturazione" value="mensile" /><span>Fatturazione mensile</span>
+                    <input type="radio" id="fatturazione-M" name="fatturazione" value="annuale" /><label
+                        for="fatturazione-M">Fatturazione Mensile</label>
 
-                    <input type="radio" name="fatturazione" value="annuale" /><span>Fatturazione annuale</span>
+                    <input type="radio" id="fatturazione-Y" name="fatturazione" value="annuale" /><label
+                        for="fatturazione-Y">Fatturazione Annuale</label>
 
                 </div>
 
@@ -565,6 +568,7 @@
             <!-- /more about clients -->
 
         </div>
+        <!-- /section 1~4 -->
 
         <!-- partner companies -->
         <div class="section-5 flex-container justify-center">
@@ -592,7 +596,31 @@
             <!-- /cards -->
 
             <!-- presentation of companies -->
-            <div class="col presentation">
+            <div class="col col-presentation flex-container column-direction justify-around">
+
+                <div class="presentation-image">
+
+                    <img src="img/designit.svg" alt="">
+
+                </div>
+
+                <div class="presentation-text">
+
+                    <hr>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis provident minima porro
+                        unde molestiae ratione minus animi a, sed suscipit perferendis sunt vel esse! Facere corporis
+                        ipsam dolorem tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ea
+                        incidunt cumque tenetur labore illum officia error veritatis corrupti voluptatem et nulla
+                        expedita enim soluta possimus, delectus optio vero aliquid? Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Deleniti unde, corrupti ab doloremque aliquam, totam magni in
+                        obcaecati et minus, cum tenetur est vero nostrum accusamus aut ipsam fugit! Esse! </p>
+
+                    <span>
+                        Morten Thomsen, Global IT Lead
+                    </span>
+
+                </div>
 
             </div>
             <!-- /presentation of companies -->
@@ -650,16 +678,20 @@
                 <div class="features">
 
                     <ul>
-                        
+
                         <li class="features-1">
 
                             <div class="before">
 
                                 <div class="feature-text">
 
-                                    <p>Qual e' la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                                    <p>Qual e' la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                                    </p>
 
-                                    <span class="after after-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore animi hic, corrupti error repellendus consequuntur sequi, quos quidem dolor nihil laudantium. Quis obcaecati sequi quidem adipisci beatae distinctio neque? </span>
+                                    <span class="after after-1"> Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Veritatis tempore animi hic, corrupti error repellendus consequuntur
+                                        sequi, quos quidem dolor nihil laudantium. Quis obcaecati sequi quidem adipisci
+                                        beatae distinctio neque? </span>
 
                                 </div>
 
@@ -668,20 +700,24 @@
                                     <button><i class="fa-solid fa-angle-down"></i></button>
 
                                 </div>
-                                
+
                             </div>
 
                         </li>
-                            
+
                         <li class="features-2">
 
                             <div class="before">
 
                                 <div class="feature-text">
 
-                                    <p>Qual e' la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                                    <p>Qual e' la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                                    </p>
 
-                                    <span class="after after-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore animi hic, corrupti error repellendus consequuntur sequi, quos quidem dolor nihil laudantium. Quis obcaecati sequi quidem adipisci beatae distinctio neque? </span>
+                                    <span class="after after-2"> Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Veritatis tempore animi hic, corrupti error repellendus consequuntur
+                                        sequi, quos quidem dolor nihil laudantium. Quis obcaecati sequi quidem adipisci
+                                        beatae distinctio neque? </span>
 
                                 </div>
 
@@ -690,7 +726,7 @@
                                     <button><i class="fa-solid fa-angle-down"></i></button>
 
                                 </div>
-                                
+
                             </div>
 
                         </li>
@@ -701,9 +737,13 @@
 
                                 <div class="feature-text">
 
-                                    <p>Qual e' la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                                    <p>Qual e' la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                                    </p>
 
-                                    <span class="after after-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore animi hic, corrupti error repellendus consequuntur sequi, quos quidem dolor nihil laudantium. Quis obcaecati sequi quidem adipisci beatae distinctio neque? </span>
+                                    <span class="after after-3"> Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Veritatis tempore animi hic, corrupti error repellendus consequuntur
+                                        sequi, quos quidem dolor nihil laudantium. Quis obcaecati sequi quidem adipisci
+                                        beatae distinctio neque? </span>
 
                                 </div>
 
@@ -712,7 +752,7 @@
                                     <button><i class="fa-solid fa-angle-down"></i></button>
 
                                 </div>
-                                
+
                             </div>
 
                         </li>
@@ -743,11 +783,11 @@
 
                     <ul>
 
-                        <li>Applicazione desktop</li>
-                        <li>Perche Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="">Applicazione desktop</a></li>
+                        <li><a href="">Perche Dropbox</a></li>
+                        <li><a href="">Piani</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Funzioni</a></li>
 
                     </ul>
 
@@ -755,66 +795,66 @@
 
                 <div class="col">
 
-                    <h3>Dropbox</h3>
+                    <h3>Prodotti</h3>
 
                     <ul>
 
-                        <li>Applicazione desktop</li>
-                        <li>Perche Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="">Applicazione desktop</a></li>
+                        <li><a href="">Perche Dropbox</a></li>
+                        <li><a href="">Piani</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Funzioni</a></li>
 
                     </ul>
-                    
+
                 </div>
 
                 <div class="col">
 
-                    <h3>Dropbox</h3>
+                    <h3>Azienda</h3>
 
                     <ul>
 
-                        <li>Applicazione desktop</li>
-                        <li>Perche Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="">Applicazione desktop</a></li>
+                        <li><a href="">Perche Dropbox</a></li>
+                        <li><a href="">Piani</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Funzioni</a></li>
 
                     </ul>
-                    
+
                 </div>
 
                 <div class="col">
 
-                    <h3>Dropbox</h3>
+                    <h3>Supporto</h3>
 
                     <ul>
 
-                        <li>Applicazione desktop</li>
-                        <li>Perche Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="">Applicazione desktop</a></li>
+                        <li><a href="">Perche Dropbox</a></li>
+                        <li><a href="">Piani</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Funzioni</a></li>
 
                     </ul>
-                    
+
                 </div>
 
                 <div class="col">
 
-                    <h3>Dropbox</h3>
+                    <h3>Community</h3>
 
                     <ul>
 
-                        <li>Applicazione desktop</li>
-                        <li>Perche Dropbox</li>
-                        <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
+                        <li><a href="">Applicazione desktop</a></li>
+                        <li><a href="">Perche Dropbox</a></li>
+                        <li><a href="">Piani</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Funzioni</a></li>
 
                     </ul>
-                    
+
                 </div>
 
             </div>
@@ -822,7 +862,7 @@
 
             <!-- change language -->
             <div class="footer-bottom">
-                
+
                 <hr>
 
                 <div class="language">
